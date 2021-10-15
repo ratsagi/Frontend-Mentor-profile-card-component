@@ -24,3 +24,41 @@
         transform: rotate(180deg);
     
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 360px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.first-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#age{
+    margin-left: 10px;
+}
+img{
+    width: 20%;
+    height:20%;
+    border-radius: 50%;
+}
+.city{
+    
+    margin-left:50px;
+}
+.second-info{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    padding:50px;
+    
+}
