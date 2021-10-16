@@ -2,13 +2,10 @@
     --Dark-cyan:hsl(185, 75%, 39%);
     --Very-dark-desaturated:hsl(229, 23%, 23%);
     --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
    }
    body{
        background-color: var(--Dark-cyan);
-       /* display: flex;
-       justify-content: center;
-       align-items: center;
-       width: 100vh; */
    }
 .bottom-svg{
     position: absolute;
@@ -31,47 +28,80 @@
 
 main{
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: 150vh;
+    height: 100vh;
 }
 .container{
     width: 360px;
     height: 380px;
     border-radius: 10px;
     background-color: white;
-    padding: 40px;
+    border-radius: 15px;
+
+}
+.bc{
+    background-image: url("images/bg-pattern-card.svg");
+    width:360px;
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
     
 
-    
 }
 .first-info{
     display: flex;
     align-items: center;
     justify-content: center;
     
+    
+}
+.first-content{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
 }
 #age{
     margin-left: 10px;
 }
-img{
+h2{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700px;
+    color: var(--Very-dark-desaturated);
+}
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400px;
+    color: var(--Dark-gray);
+}
+
+.avatar{
+    position: relative;
+    left:130px ;
+    bottom: 50px;
     width: 20%;
     height:20%;
     border-radius: 50%;
     border: solid  white 5px;
 }
 .city{
-    
-    margin-left:50px; 
+    position: relative;
+     bottom:25px;
+ text-align: center; 
 }
 .second-info{
     display: flex;
     flex-direction:row;
+    justify-content: space-around;
     margin-top: 10px;
     padding:20px;
-    border-block-start: solid black;
+    border-block-start: solid var(--Dark-gray);
     border-block-width: thin;
+    position: relative;
+    bottom:40px;
     
         
 }
@@ -80,4 +110,12 @@ img{
 }
 .info-block-2{
     margin-right: 40px;
+}
+.info-source{
+    
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    font-weight: 400px;
+    color:var(--Dark-grayish-blue);
 }
