@@ -5,6 +5,10 @@
    }
    body{
        background-color: var(--Dark-cyan);
+       /* display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100vh; */
    }
 .bottom-svg{
     position: absolute;
@@ -28,13 +32,18 @@
 main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100vh;
 }
 .container{
     width: 360px;
     height: 380px;
     border-radius: 10px;
     background-color: white;
+    padding: 40px;
+    
+
     
 }
 .first-info{
@@ -50,15 +59,25 @@ img{
     width: 20%;
     height:20%;
     border-radius: 50%;
+    border: solid  white 5px;
 }
 .city{
     
-    margin-left:50px;
+    margin-left:50px; 
 }
 .second-info{
     display: flex;
     flex-direction:row;
-    align-items: flex-start;
-    padding:50px;
+    margin-top: 10px;
+    padding:20px;
+    border-block-start: solid black;
+    border-block-width: thin;
     
+        
+}
+.info-block-1{
+  margin-right: 60px;
+}
+.info-block-2{
+    margin-right: 40px;
 }
