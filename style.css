@@ -5,10 +5,6 @@
    }
    body{
        background-color: var(--Dark-cyan);
-       /* display: flex;
-       justify-content: center;
-       align-items: center;
-       width: 100vh; */
    }
 .bottom-svg{
     position: absolute;
@@ -31,47 +27,62 @@
 
 main{
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: 150vh;
+    height: 100vh;
 }
 .container{
     width: 360px;
     height: 380px;
     border-radius: 10px;
     background-color: white;
-    padding: 40px;
-    
-
-    
+    padding: 40px;  
+}
+.bc{
+    background-image: url("images/bg-pattern-card.svg");
 }
 .first-info{
     display: flex;
     align-items: center;
     justify-content: center;
     
+    
+}
+.first-content{
+    position: relative;
+    top: 60px;
+    text-align: center;
 }
 #age{
     margin-left: 10px;
 }
-img{
+
+.avatar{
+    position: relative;
+    left:130px ;
+    top: 60px;
     width: 20%;
     height:20%;
     border-radius: 50%;
     border: solid  white 5px;
 }
 .city{
-    
-    margin-left:50px; 
+    position: relative;
+     bottom:35px;
+ text-align: center; 
 }
 .second-info{
     display: flex;
     flex-direction:row;
+    justify-content: space-around;
     margin-top: 10px;
     padding:20px;
     border-block-start: solid black;
     border-block-width: thin;
+    position: relative;
+    top:90px;
     
         
 }
@@ -80,4 +91,8 @@ img{
 }
 .info-block-2{
     margin-right: 40px;
+}
+.info-source{
+    position: relative;
+    bottom: 15px;
 }
