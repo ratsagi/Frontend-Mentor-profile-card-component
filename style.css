@@ -11,7 +11,7 @@
        background-image: url("images/bg-pattern-top.svg"), 
        url("images/bg-pattern-bottom.svg");
     background-position: right 51vw bottom 37vh, left 50vw top 45vh;
-       background-repeat: no-repeat, no-repeat;
+       background-repeat: no-repeat;
        font-family: 'Kumbh Sans', sans-serif;
    }
    
