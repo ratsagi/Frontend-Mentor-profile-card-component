@@ -68,9 +68,9 @@ h2{
     margin: 0 auto;
 }
 .avatar{
-    position: relative;
+/*     position: relative;
     left:130px ;
-    bottom: 50px;
+    bottom: 50px; */
     width: 20%;
     height:20%;
     border-radius: 50%;
