@@ -10,8 +10,8 @@
        background-color: var(--Dark-cyan);
        background-image: url("images/bg-pattern-top.svg"), 
        url("images/bg-pattern-bottom.svg");
-       background-position: top 50vh right 50vh bottom 50vh left 50vw;
-       background-repeat: no-repeat, no-repeat;
+       background-position: right 51vw bottom 37vh, left 50vw top 45vh;
+       background-repeat: no-repeat;
        font-family: 'Kumbh Sans', sans-serif;
    }
    
@@ -65,10 +65,16 @@ h2{
     color: var(--Very-dark-desaturated);
 }
 
-.avatar{
+.avatar-father img {
+    display: block;
+    margin: 0 auto;
     position: relative;
+    bottom: 42px;
+}
+.avatar{
+/*     position: relative;
     left:130px ;
-    bottom: 50px;
+    bottom: 50px; */
     width: 20%;
     height:20%;
     border-radius: 50%;
