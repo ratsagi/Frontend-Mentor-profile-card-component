@@ -8,10 +8,11 @@
 
    body{
        background-color: var(--Dark-cyan);
-       background-image: url("images/bg-pattern-top.svg"), 
-       url("images/bg-pattern-bottom.svg");
-       background-position: top 50vh right 50vh bottom 50vh left 50vw;
-       background-repeat: no-repeat, no-repeat;
+       background: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg), var(--bg-color);
+
+ background-position: right 51vw bottom 37vh, left 50vw top 45vh;
+
+ background-repeat: no-repeat;
        font-family: 'Kumbh Sans', sans-serif;
    }
    
