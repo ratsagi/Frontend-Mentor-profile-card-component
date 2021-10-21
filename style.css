@@ -10,7 +10,7 @@
        background-color: var(--Dark-cyan);
        background-image: url("images/bg-pattern-top.svg"), 
        url("images/bg-pattern-bottom.svg");
-       background-position: top 0 right 50vh bottom 50vh left 50vw;
+       background-position: top 50vw right 50vh bottom 50vh left 50vw;
        background-repeat: no-repeat, no-repeat;
        font-family: 'Kumbh Sans', sans-serif;
    }
