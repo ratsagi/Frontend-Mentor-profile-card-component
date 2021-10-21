@@ -64,15 +64,17 @@ h2{
     font-weight: 700px;
     color: var(--Very-dark-desaturated);
 }
-.avatar-father{position: relative;
+/* .avatar-father{position: relative;
     /* top: -37
 px
 ; */
     bottom: 42
 px
-;}
+;} */
 .avatar-father img{display: block;
     margin: 0 auto;
+    position: relative;
+    bottom: 42px;
 }
 .avatar{
 /*     position: relative;
