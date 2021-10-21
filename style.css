@@ -26,7 +26,7 @@ main{
 .container{
     position: absolute;
     width: 20rem;
-    height: 25rem;
+    height: 23rem;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -54,15 +54,22 @@ span{
    flex-direction: column;
    align-items: center;
    border-bottom: 1px solid var(--Dark-gray);
+   position: relative;
+   bottom: 50px;
 }
 #age{
     margin-left: 10px;
 }
 h2{
-    font-size: 1.2rem;
+    font-size: 18px;
     
     font-weight: 700px;
     color: var(--Very-dark-desaturated);
+}
+p{
+    font-size: 11px;
+    color: var(--Very-dark-desaturated);
+    font-weight: 400;
 }
 
 .avatar{
@@ -77,9 +84,11 @@ h2{
 .city{
     position: relative;
      bottom:25px;
- text-align: center; 
+ text-align: center;
+ font-size: 14px; 
 }
 .second-info{
+    font-size: 18px;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
@@ -88,6 +97,8 @@ h2{
 }
  .info-block{
      text-align: center;
+     position: relative;
+     bottom: 50px;
  }
 
 
