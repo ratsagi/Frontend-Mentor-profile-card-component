@@ -8,7 +8,7 @@
 
    body{
        background-color: var(--Dark-cyan);
-       background: url(images/bg-pattern-top.svg),
+       background: url("images/bg-pattern-top.svg"),
                    url(/images/bg-pattern-bottom.svg), var(--bg-color);
        background-position: right 51vw bottom 37vh, left 50vw top 45vh;
        background-repeat: no-repeat;
